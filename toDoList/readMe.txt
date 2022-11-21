@@ -1,0 +1,12 @@
+Migrate:
+    python manage.py migrate
+
+And then start the server 
+    python manage.py runserver
+
+Requirements:
+asgiref==3.5.2
+Django==4.1
+djangorestframework==3.13.1
+pytz==2022.1
+sqlparse==0.4.2
